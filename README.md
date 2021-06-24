@@ -35,8 +35,11 @@ The brief description of the code relationships is in "code_connection.pdf".
 The main code is "SL_simple.py". 
 
 SL_simple :
+
 The code simulates Zlotnik optimal inputs(2013) for Stuart-Landau model. 
+
 The first section is calculating lagrange multipliers for inputs, simulating dynamics with the input, and saving data.
+
 The second section is drawing and saving simulation results. The figure is corresponding to fig1 in the article*.
 
 
