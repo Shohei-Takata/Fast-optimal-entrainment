@@ -48,7 +48,7 @@ The second section is drawing and saving simulation results. The figure is corre
 The main code is "VAN_Floquet", "VAN_simple", "VAN_feedback", "VAN_penalty", "VAN_tangent", "VAN_plot", and "calculate_arnold_tongue". 
 
 VAN_Floquet : 
-The code calculates and saves Van der Pol's limit cycle, frequency, floquet vectors, etc. 
+The code calculates and saves Van der Pol's limit cycle, frequency, floquet vectors, etc. \\
 The calculation is in section1, drawing figures and saving the figures and data is in section2. The figure is corresponding to fig2 in the article*.
 
 VAN_simple : It is necessary to run VAN_Floquet in advance.
