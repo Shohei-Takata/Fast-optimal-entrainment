@@ -5,6 +5,7 @@ Python library for calculating floquet vectors and simulating dynamics.
 The code in this repository was prepared to implement the methodologies described in 
 Takata, Shohei, Yuzuru Kato, and Hiroya Nakao. "Fast optimal entrainment of limit-cycle oscillators by strong periodic inputs via phase-amplitude reduction and Floquet theory." arXiv preprint arXiv:2104.09944 (2021).
 
+
 #############################################
 ## Integrated Development Environment(IDE) ##
 #############################################
@@ -13,6 +14,7 @@ We assume that the code runs on spyder[https://www.spyder-ide.org/].
 
 If you run the code on other IDE, please note that the section mark (#%%) doesn't work. 
 
+
 ###########
 ## Setup ##
 ###########
@@ -20,6 +22,7 @@ If you run the code on other IDE, please note that the section mark (#%%) doesn'
 Install requirements
 
 pip3 install -r requirements.txt
+
 
 ######################
 ## Running the code ##
@@ -95,6 +98,7 @@ This model is not attached in the article.
 
 
 *Takata, Shohei, Yuzuru Kato, and Hiroya Nakao. "Fast optimal entrainment of limit-cycle oscillators by strong periodic inputs via phase-amplitude reduction and Floquet theory." arXiv preprint arXiv:2104.09944 (2021).
+
 
 ###############
 ## Questions ##
