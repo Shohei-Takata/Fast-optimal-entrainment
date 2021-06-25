@@ -1,46 +1,38 @@
 # Fast optimal entrainment of limit-cycle oscillators by strong periodic inputs via phase-amplitude reduction and Floquet theory
 
-Python library for calculating floquet vectors and simulating dynamics. 
+Python library for calculating floquet vectors and simulating dynamics.   
 
-The code in this repository was prepared to implement the methodologies described in 
+The code in this repository was prepared to implement the methodologies described in   
 Takata, Shohei, Yuzuru Kato, and Hiroya Nakao. "Fast optimal entrainment of limit-cycle oscillators by strong periodic inputs via phase-amplitude reduction and Floquet theory." arXiv preprint arXiv:2104.09944 (2021).
 
 
-#############################################
-## Integrated Development Environment(IDE) ##
-#############################################
+## Integrated Development Environment(IDE) 
 
 We assume that the code runs on spyder[https://www.spyder-ide.org/].  
 
 If you run the code on other IDE, please note that the section mark (#%%) doesn't work. 
 
 
-###########
-## Setup ##
-###########
+## Setup 
 
-Install requirements
+
+Install requirements  
 
 pip3 install -r requirements.txt
 
 
-######################
-## Running the code ##
-######################
+## Running the code
 
 The brief description of the code relationships is in "code_connection.pdf". 
 
 # Stuart-Landau
 
-The main code is "SL_simple.py". 
+The main code is "SL_simple.py".   
 
-SL_simple :
-
-The code simulates Zlotnik optimal inputs(2013) for Stuart-Landau model. 
-
-The first section is calculating lagrange multipliers for inputs, simulating dynamics with the input, and saving data.
-
-The second section is drawing and saving simulation results. The figure is corresponding to fig1 in the article*.
+SL_simple :  
+The code simulates Zlotnik optimal inputs(2013) for Stuart-Landau model.   
+The first section is calculating lagrange multipliers for inputs, simulating dynamics with the input, and saving data.  
+The second section is drawing and saving simulation results. The figure is corresponding to fig1 in the article*.  
 
 
 # Van der Pol
