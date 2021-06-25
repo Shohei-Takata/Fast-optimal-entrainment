@@ -89,7 +89,7 @@ The figure is corresponding to fig6 and fig7 in the article*.
 
 The main code is "FHN_Floquet", "FHN_simple", "FHN_feedback", and "FHN_penalty".   
 The structure of these code are the same as the above.  
-This model is not attached in the article.   
+This model is not attached in the article*.   
   
   
 *Takata, Shohei, Yuzuru Kato, and Hiroya Nakao. "Fast optimal entrainment of limit-cycle oscillators by strong periodic inputs via phase-amplitude reduction and Floquet theory." arXiv preprint arXiv:2104.09944 (2021).
