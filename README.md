@@ -49,19 +49,19 @@ The first section is calculating lagrange multipliers for inputs.
 The second section is simulating dynamics with the input and holding simulation results.   
 The third section is calculating phase coupling function and saving simulation data.   
   
-VAN_feedback : It is necessary to run VAN_Floquet in advance.  
+#### VAN_feedback : It is necessary to run VAN_Floquet in advance.  
 The code simulates amplitude-feedback method for van der Pol model.   
 The structure of section is the same as "VAN_simple"  
   
-VAN_penalty : It is necessary to run VAN_Floquet in advance.  
+#### VAN_penalty : It is necessary to run VAN_Floquet in advance.  
 The code simulates amplitude-penalty method for van der Pol model.   
 The structure of section is the same as "VAN_simple"  
   
-VAN_tangent : It is necessary to run VAN_Floquet in advance.  
+#### VAN_tangent : It is necessary to run VAN_Floquet in advance.  
 The code simulates amplitude-penalty method for van der Pol model.   
 The structure of section is the same as "VAN_simple"  
   
-VAN_plot : It is necessary to save simulation data for drawing figures in advance.  
+#### VAN_plot : It is necessary to save simulation data for drawing figures in advance.  
 The code plots simulation results for van der Pol model.   
 The first section is setting matplotlib parameters.   
 The second section is drawing and saving simulation results of the amplitude-feedback method. The figure is corresponding to fig3 in the article*.  
@@ -69,7 +69,7 @@ The third section is drawing and saving simulation results of the amplitude-pena
 The fourth section is drawing and saving simulation results of the amplitude-feedback and amplitude-penalty method. The figure is corresponding to fig4 in the article*.  
 The sixth section is drawing and saving simulation results of the tangential periodic input. The figure is corresponding to fig8 in the article*.  
   
-calculate_arnold_tongue : It is necessary to run VAN_Floquet in advance.  
+#### calculate_arnold_tongue : It is necessary to run VAN_Floquet in advance.  
 The code simulates three method, drawing arnold tongues and saving the figures and data.   
 The first section is setting three functions for next sections.   
 The second section is simulating Zlotnik optimal inputs(2013), drawing arnold tongues and saving the figures and data. The figure is corresponding to fig5 in the article*.  
