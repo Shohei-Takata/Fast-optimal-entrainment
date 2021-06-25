@@ -29,7 +29,7 @@ The brief description of the code relationships is in "code_connection.pdf".
 
 The main code is "SL_simple.py".   
 
-####SL_simple :  
+#### SL_simple :  
 The code simulates Zlotnik optimal inputs(2013) for Stuart-Landau model.   
 The first section is calculating lagrange multipliers for inputs, simulating dynamics with the input, and saving data.  
 The second section is drawing and saving simulation results. The figure is corresponding to fig1 in the article*.  
@@ -39,11 +39,11 @@ The second section is drawing and saving simulation results. The figure is corre
 
 The main code is "VAN_Floquet", "VAN_simple", "VAN_feedback", "VAN_penalty", "VAN_tangent", "VAN_plot", and "calculate_arnold_tongue".   
 
-####VAN_Floquet :   
+#### VAN_Floquet :   
 The code calculates and saves Van der Pol's limit cycle, frequency, floquet vectors, etc.  
 The calculation is in section1, drawing figures and saving the figures and data is in section2. The figure is corresponding to fig2 in the article*.  
   
-VAN_simple : It is necessary to run VAN_Floquet in advance.  
+#### VAN_simple : It is necessary to run VAN_Floquet in advance.  
 The code simulates Zlotnik optimal inputs(2013) for van der Pol model.   
 The first section is calculating lagrange multipliers for inputs.   
 The second section is simulating dynamics with the input and holding simulation results.   
