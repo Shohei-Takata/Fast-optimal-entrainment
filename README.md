@@ -78,8 +78,8 @@ Section 5 is about drawing and saving the color bars.
 
 ### Willamowski-Rossler
 
-The main code is "WR_Floquet", "WR_simple", "WR_feedback", "WR_penalty", and "WR_plot".   
-The structure of these code are the same as the above.  
+The main codes are "WR_Floquet", "WR_simple", "WR_feedback", "WR_penalty", and "WR_plot".   
+The structure of these codes are the same as "VAN_...".  
 The figure is corresponding to fig6 and fig7 in the article*.  
 
 
