@@ -80,14 +80,14 @@ Section 5 is about drawing and saving the color bars.
 
 The main codes are "WR_Floquet", "WR_simple", "WR_feedback", "WR_penalty", and "WR_plot".   
 The structure of these codes are the same as "VAN_...".  
-The figure is corresponding to fig6 and fig7 in the article*.  
+The figure is corresponding to fig6 and fig7 in the paper*.  
 
 
 ### Fitz Hugh nagumo
 
-The main code is "FHN_Floquet", "FHN_simple", "FHN_feedback", and "FHN_penalty".   
+The main codes are "FHN_Floquet", "FHN_simple", "FHN_feedback", and "FHN_penalty".   
 The structure of these code are the same as the above.  
-This model is not attached in the article*.   
+This model is not attached in the paper*.   
   
   
 *Takata, Shohei, Yuzuru Kato, and Hiroya Nakao. "Fast optimal entrainment of limit-cycle oscillators by strong periodic inputs via phase-amplitude reduction and Floquet theory." arXiv preprint arXiv:2104.09944 (2021).
