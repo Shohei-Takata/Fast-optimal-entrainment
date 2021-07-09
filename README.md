@@ -64,18 +64,18 @@ The structure of section is the same as "VAN_simple"
 #### VAN_plot : It is necessary to save simulation data to draw figures in advance.  
 This code draws simulation results of van der Pol model.   
 In section 1, we set the matplotlib parameters.  
-Section 2 draws and saves the simulation results of the amplitude feedback method. The figure corresponds to fig3 in the paper*.
-Section 3 draws and saves the simulation results of the amplitude-penalty method. The figure corresponds to fig3 in the paper*.
-Section 4 draws and saves the simulation results of the amplitude-feedback and amplitude-penalty methods. The figure corresponds to fig4 in the paper*.
-In section 5, we draw and save the simulation results for periodic input in the tangential direction. The figure corresponds to fig8 in the paper*.
+Section 2 draws and saves the simulation results of the amplitude feedback method. The figure corresponds to fig3 in the paper*.  
+Section 3 draws and saves the simulation results of the amplitude-penalty method. The figure corresponds to fig3 in the paper*.  
+Section 4 draws and saves the simulation results of the amplitude-feedback and amplitude-penalty methods. The figure corresponds to fig4 in the paper*.  
+In section 5, we draw and save the simulation results for periodic input in the tangential direction. The figure corresponds to fig8 in the paper*.  
   
 #### calculate_arnold_tongue : It is necessary to run VAN_Floquet beforehand.  
-This code simulates three methods, draws the Arnold Tongue, and saves the figure and data.
-Section 1 sets up the three functions for the next sections.
-In section 2, we simulate the Zlotnik optimal input (2013), draw the Arnold tongue, and save the figure and data. The figure corresponds to fig5 in the paper*.
-In section 3, we do the same with the amplitude feedback method.
-In section 4, we do the same with the amplitude penalty method.
-Section 5 is about drawing and saving the color bars.
+This code simulates three methods, draws the Arnold Tongue, and saves the figure and data.  
+Section 1 sets up the three functions for the next sections.  
+In section 2, we simulate the Zlotnik optimal input (2013), draw the Arnold tongue, and save the figure and data. The figure corresponds to fig5 in the paper*.  
+In section 3, we do the same with the amplitude feedback method.  
+In section 4, we do the same with the amplitude penalty method.  
+Section 5 is about drawing and saving the color bars.  
 
 ### Willamowski-Rossler
 
