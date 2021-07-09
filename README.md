@@ -46,7 +46,6 @@ The calculation is done in section 1, the drawing of the figure and saving of th
 The code simulates Zlotnik optimal inputs(2013) for van der Pol model.   
 The first section computes the Lagrange multipliers for the input.  
 In the second section, we simulate the dynamics with the input and keep the simulation results in arrays.  
-The second section is simulating dynamics with the input and holding simulation results.   
 In the third section, we calculate the phase coupling function and store the simulation data.
   
 #### VAN_feedback : It is necessary to run VAN_Floquet beforehand.  
