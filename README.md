@@ -64,8 +64,8 @@ The structure of section is the same as "VAN_simple"
 This code draws simulation results of van der Pol model.   
 In section 1, we set the matplotlib parameters.  
 Section 2 draws and saves the simulation results of the amplitude feedback method. The figure corresponds to fig3 in the paper*.  
-Section 3 draws and saves the simulation results of the amplitude-penalty method. The figure corresponds to fig3 in the paper*.  
-Section 4 draws and saves the simulation results of the amplitude-feedback and amplitude-penalty methods. The figure corresponds to fig4 in the paper*.  
+Section 3 done for the amplitude-penalty method. The figure corresponds to fig3 in the paper*.  
+Section 4 done for the amplitude-feedback and amplitude-penalty methods. The figure corresponds to fig4 in the paper*.  
 In section 5, we draw and save the simulation results for periodic input in the tangential direction. The figure corresponds to fig8 in the paper*.  
   
 #### calculate_arnold_tongue : It is necessary to run VAN_Floquet beforehand.  
