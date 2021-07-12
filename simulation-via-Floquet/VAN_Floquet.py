@@ -16,12 +16,12 @@ ND = my.ND(tmax, dt)
 # di/dt = self.mu*i - i*i*i/3.0 - v + self.x0
 # dv/dt = i
 
-mu = 0.3
+c = 0.3 # c = mu
 
 #VAN = my.VAN(mu, 0, 0) # standard. At first, we calculated with this.
 
 timescale = 10 # Transformation from t to t'=t/timescale
-VAN = my.VAN_rescale(mu, timescale, 0, 0)
+VAN = my.VAN_rescale(c, timescale, 0, 0)
 
 # inital point
 Xstart = np.ones((2,1))
