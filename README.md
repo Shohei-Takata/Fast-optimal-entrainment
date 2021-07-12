@@ -31,7 +31,7 @@ A brief description of the code relationships can be found in "code_connection.p
 The main code is "SL_simple.py".   
 
 #### SL_simple :  
-This code simulates the Zlotnik optimal input (2013) for Stuart-Landau model.
+This code simulates the optimal inputs by Zlotnik(2013)for Stuart-Landau model.
 The first section calculates the Lagrange multipliers for the input, simulates the dynamics with the input, and stores the data in arrays.
 In the second section, we draw and save the simulation results. The figure corresponds to fig1 in the paper*.
 
@@ -40,11 +40,11 @@ In the second section, we draw and save the simulation results. The figure corre
 The main codes are "VAN_Floquet", "VAN_simple", "VAN_feedback", "VAN_penalty", "VAN_tangent", "VAN_plot", and "calculate_arnold_tongue".   
 
 #### VAN_Floquet :   
-This code simulates the Zlotnik optimal input (2013) for van der Pol model.  
+This code calculate limit cycle, frequency, Floquet vectors, etc. for van der Pol model.  
 The calculation is done in section 1, the drawing of the figure and saving of the figure and data is done in section 2. The figure corresponds to fig2 in the paper*.
   
 #### VAN_simple : It is necessary to run VAN_Floquet beforehand.  
-The code simulates Zlotnik optimal inputs(2013) for van der Pol model.   
+The code simulates optimal inputs by Zlotnik(2013) for van der Pol model.   
 The first section computes the Lagrange multipliers for the input.  
 In the second section, we simulate the dynamics with the input and keep the simulation results in arrays.  
 In the third section, we calculate the phase coupling function and store the simulation data.
@@ -84,7 +84,7 @@ The structure of these codes are the same as "VAN_...".
 The figure is corresponding to fig6 and fig7 in the paper*.  
 
 
-### FitzHugh Nagumo
+### FitzHugh-Nagumo
 
 The main codes are "FHN_Floquet", "FHN_simple", "FHN_feedback", and "FHN_penalty".   
 The structure of these code are the same as the above.  
