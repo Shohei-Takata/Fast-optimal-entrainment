@@ -83,7 +83,7 @@ The structure of these codes are the same as "VAN_...".
 The figure is corresponding to fig6 and fig7 in the paper*.  
 
 
-### Fitz Hugh nagumo
+### FitzHugh Nagumo
 
 The main codes are "FHN_Floquet", "FHN_simple", "FHN_feedback", and "FHN_penalty".   
 The structure of these code are the same as the above.  
