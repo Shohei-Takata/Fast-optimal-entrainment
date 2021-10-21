@@ -3,7 +3,7 @@
 Python library for calculating floquet vectors and simulating dynamics.   
 
 The codes in this repository implement the methodologies described in   
-Takata, Shohei, Yuzuru Kato, and Hiroya Nakao. "Fast optimal entrainment of limit-cycle oscillators by strong periodic inputs via phase-amplitude reduction and Floquet theory." arXiv preprint arXiv:2104.09944 (2021).  
+Takata, S., Kato, Y., & Nakao, H. (2021). Fast optimal entrainment of limit-cycle oscillators by strong periodic inputs via phase-amplitude reduction and Floquet theory. Chaos: An Interdisciplinary Journal of Nonlinear Science, 31(9), 093124.
 
 Please cite this paper when you use the codes.  
 
