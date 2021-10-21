@@ -91,7 +91,7 @@ The structure of these code are the same as the above.
 This model is not attached in the paper*.   
   
   
-*Takata, Shohei, Yuzuru Kato, and Hiroya Nakao. "Fast optimal entrainment of limit-cycle oscillators by strong periodic inputs via phase-amplitude reduction and Floquet theory." arXiv preprint arXiv:2104.09944 (2021).
+*Takata, S., Kato, Y., & Nakao, H. (2021). Fast optimal entrainment of limit-cycle oscillators by strong periodic inputs via phase-amplitude reduction and Floquet theory. Chaos: An Interdisciplinary Journal of Nonlinear Science, 31(9), 093124.
 
 
 ## Questions 
