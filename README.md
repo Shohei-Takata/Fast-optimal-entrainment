@@ -1,21 +1,21 @@
 # Fast optimal entrainment of limit-cycle oscillators by strong periodic inputs via phase-amplitude reduction and Floquet theory
 
-Python library for calculating floquet vectors and simulating dynamics.   
+Python library for calculating Floquet vectors and simulating dynamics for fast entrainment by strong periodic input.
 
-The codes in this repository implement the methodologies described in   
-S. Takata, Y. Kato, & H. Nakao,(2021). Fast optimal entrainment of limit-cycle oscillators by strong periodic inputs via phase-amplitude reduction and Floquet theory. Chaos: An Interdisciplinary Journal of Nonlinear Science, 31(9), 093124.
+The codes in this repository implement the methodologies presented in 
+S. Takata, Y. Kato, H. Nakao, Fast optimal entrainment of limit-cycle oscillators by strong periodic inputs via phase-amplitude reduction and Floquet theory, Chaos: An Interdisciplinary Journal of Nonlinear Science, 31(9), 093124 (2021).
 
-Please cite this paper when you use the codes.  
+Please cite the paper if you find the codes are useful. 
+
 
 ## Integrated Development Environment(IDE) 
 
-The code is intended to be run on spyder[https://www.spyder-ide.org/].
+We use the Spyder IDE [https://www.spyder-ide.org/] to run the codes.
 
-Please note that the section marks (#%%) will not work when run in other IDEs. 
+Note that the standard cell (section) separator (#%%) may not work in other IDEs.
 
 
 ## Setup 
-
 
 Install requirements  
 
@@ -26,74 +26,47 @@ pip3 install -r requirements.txt
 
 A brief description of the code relationships can be found in "code_connection.pdf".
 
-### Stuart-Landau
+### Stuart-Landau model
 
 The main code is "SL_simple.py".   
 
 #### SL_simple :  
-This code simulates the optimal inputs by Zlotnik(2013)for Stuart-Landau model.
-The first section calculates the Lagrange multipliers for the input, simulates the dynamics with the input, and stores the data in arrays.
-In the second section, we draw and save the simulation results. The figure corresponds to fig1 in the paper*.
+This code simulates a Stuart-Landau model subjected to the optimal input proposed by Zlotnik (2013). The code in the first section calculates the Lagrange multipliers for the input, simulates the dynamics with the input, and stores the simulation results in arrays. The code in the second section draws the figure and saves the simulation results. The figure plotted by the code corresponds to Fig.1 in the paper.
 
-### van der Pol
+### van der Pol model
 
 The main codes are "VAN_Floquet", "VAN_simple", "VAN_feedback", "VAN_penalty", "VAN_tangent", "VAN_plot", and "calculate_arnold_tongue".   
 
 #### VAN_Floquet :   
-This code calculate limit cycle, frequency, Floquet vectors, etc. for van der Pol model.  
-The calculation is done in section 1, the drawing of the figure and saving of the figure and data is done in section 2. The figure corresponds to fig2 in the paper*.
+This code calculates the limit cycle, frequency, Floquet vectors, etc., of a van der Pol model. The code in the first section calculates the above quantities. The code in the second section draws the figure and saves the simulation results. The figure plotted by the codes corresponds to Fig.2 in the paper.
   
-#### VAN_simple : It is necessary to run VAN_Floquet beforehand.  
-The code simulates optimal inputs by Zlotnik(2013) for van der Pol model.   
-The first section computes the Lagrange multipliers for the input.  
-In the second section, we simulate the dynamics with the input and keep the simulation results in arrays.  
-In the third section, we calculate the phase coupling function and store the simulation data.
+#### VAN_simple : VAN_Floquet needs to be run beforehand.
+This code simulates a van de Pol model subjected to the optimal inputs proposed by Zlotnik (2013). The code in the first section calculates the Lagrange multipliers for the input. The code in the second section simulates the dynamics with the input and stores the simulation results in arrays. The code in the third section calculates the phase coupling function and saves the simulation results.
   
-#### VAN_feedback : It is necessary to run VAN_Floquet beforehand.  
-This code simulates amplitude-feedback method for van der Pol model.   
-The structure of section is the same as "VAN_simple".  
+#### VAN_feedback : VAN_Floquet needs to be run beforehand.
+This code simulates a van der Pol model subjected to the input of the amplitude-feedback. The structure of the sections is the same as "VAN_simple".
   
-#### VAN_penalty : It is necessary to run VAN_Floquet beforehand. 
-The code simulates amplitude-penalty method for van der Pol model.   
-The structure of section is the same as "VAN_simple". 
+#### VAN_penalty : VAN_Floquet needs to be run beforehand. 
+The code simulates a van der Pol model subjected to the input of the amplitude-penalty method. The structure of the sections is the same as "VAN_simple".
   
-#### VAN_tangent : It is necessary to run VAN_Floquet beforehand. 
-The code simulates tangent-only method for van der Pol model.   
-The structure of section is the same as "VAN_simple"  
+#### VAN_tangent : VAN_Floquet needs to be run beforehand. 
+The code simulates a van der Pol model subjected to the input of the tangent-only method. The structure of the sections is the same as "VAN_simple". 
   
 #### VAN_plot : It is necessary to save simulation data to draw figures in advance.  
-This code draws simulation results of van der Pol model.   
-In section 1, we set the matplotlib parameters.  
-Section 2 draws and saves the simulation results of the amplitude feedback method. The figure corresponds to fig3 in the paper*.  
-Section 3 done for the amplitude-penalty method. The figure corresponds to fig3 in the paper*.  
-Section 4 done for the amplitude-feedback and amplitude-penalty methods. The figure corresponds to fig4 in the paper*.  
-In section 5, we draw and save the simulation results for periodic input in the tangential direction. The figure corresponds to fig8 in the paper*.  
+This code draws figures for the simulation results of van der Pol models. In the first section, we set the matplotlib parameters. In the second and third sections, we draw and save the simulation results with the amplitude-feedback and amplitude-penalty methods, respectively. The figure plotted in the section corresponds to Fig. 3 in the paper. In the fourth section, we draw and save the simulation results to compare the two proposed methods and the method proposed by Zlotnik (2013). The figure plotted in the section corresponds to Fig. 4 in the paper. In the fifth section, we draw and save the simulation results of the tangent only method. The figure plotted in the section corresponds to Fig. 8 in the paper.
   
-#### calculate_arnold_tongue : It is necessary to run VAN_Floquet beforehand.  
-This code simulates three methods, draws the Arnold Tongue, and saves the figure and data.  
-Section 1 sets up the three functions for the next sections.  
-In section 2, we simulate the Zlotnik optimal input (2013), draw the Arnold tongue, and save the figure and data. The figure corresponds to fig5 in the paper*.  
-In section 3, we do the same with the amplitude feedback method.  
-In section 4, we do the same with the amplitude penalty method.  
-Section 5 is about drawing and saving the color bars.  
+#### calculate_arnold_tongue : VAN_Floquet needs to be run beforehand.
+This code simulates three methods, draws the figure of the Arnold Tongue, and saves the simulation results. In the first section, we set up the three functions needed in the calculation. In the second, third, and fourth sections, we simulate the dynamics, draw the figure of the Arnold tongue and save the results with the optimal input proposed by Zlotnik (2013), the amplitude feedback method, and the amplitude penalty method, respectively. The figure plotted in the section corresponds to Fig. 5 in the paper. In the fifth section, we draw and save the color bars.
 
 ### Willamowski-Rossler
 
-The main codes are "WR_Floquet", "WR_simple", "WR_feedback", "WR_penalty", and "WR_plot".   
-The structure of these codes are the same as "VAN_...".  
-The figure is corresponding to fig6 and fig7 in the paper*.  
-
+The main codes are "WR_Floquet", "WR_simple", "WR_feedback", "WR_penalty", and "WR_plot". The structure of these codes is the same as the corresponding codes of "VAN_...". The figures plotted in the code are corresponding to Fig. 6 and 7 in the paper.
 
 ### FitzHugh-Nagumo
 
-The main codes are "FHN_Floquet", "FHN_simple", "FHN_feedback", and "FHN_penalty".   
-The structure of these code are the same as the above.  
-This model is not attached in the paper*.   
-  
-  
-*S. Takata, Y. Kato, & H. Nakao,(2021). Fast optimal entrainment of limit-cycle oscillators by strong periodic inputs via phase-amplitude reduction and Floquet theory. Chaos: An Interdisciplinary Journal of Nonlinear Science, 31(9), 093124.
+The main codes are "FHN_Floquet", "FHN_simple", "FHN_feedback", and "FHN_penalty". The structure of these codes is the same as the corresponding codes of "VAN_...". Note that the results for the FitzHugh-Nagumo model are not presented in the paper. 
 
 
 ## Questions 
 
-If you have any questions, don't hesitate to email takata.s.ae@m.titech.ac.jp
+Please feel free to contact me (tktsho72@gmail.com) if you have any questions.
