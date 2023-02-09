@@ -104,39 +104,39 @@ fig = plt.figure(0, figsize=(18, 12))
 ax = fig.subplots(3, 3)
 Time_ax = np.linspace(0,Tnum-1, Tnum)*dt
 
-# 左上 <u0,v0>
+# <u0,v0>
 ax[0, 0].plot(Time_ax, my.inner_product(u0_, v0_, Tnum))
 ax[0, 0].set_title('<u0,v0>')
 ax[0, 0].grid()
-# 中央上 <u0,v1>
+# <u0,v1>
 ax[0, 1].plot(Time_ax, my.inner_product(u0_, v1_, Tnum))
 ax[0, 1].set_title('<u0,v1>')
 ax[0, 1].grid()
-# 右上 <u0,v2>
+# <u0,v2>
 ax[0, 2].plot(Time_ax, my.inner_product(u0_, v2_, Tnum))
 ax[0, 2].set_title('<u0,v2>')
 ax[0, 2].grid()
-# 左中央 <u0,v0>
+# <u0,v0>
 ax[1, 0].plot(Time_ax, my.inner_product(u1_, v0_, Tnum))
 ax[1, 0].set_title('<u1,v0>')
 ax[1, 0].grid()
-# 中央 <u0,v1>
+# <u0,v1>
 ax[1, 1].plot(Time_ax, my.inner_product(u1_, v1_, Tnum))
 ax[1, 1].set_title('<u1,v1>')
 ax[1, 1].grid()
-# 右中央 <u0,v2>
+# <u0,v2>
 ax[1, 2].plot(Time_ax, my.inner_product(u1_, v2_, Tnum))
 ax[1, 2].set_title('<u1,v2>')
 ax[1, 2].grid()
-# 左下 <u2,v0>
+# <u2,v0>
 ax[2, 0].plot(Time_ax, my.inner_product(u2_, v0_, Tnum))
 ax[2, 0].set_title('<u2,v0>')
 ax[2, 0].grid()
-# 中央上 <u2,v1>
+# <u2,v1>
 ax[2, 1].plot(Time_ax, my.inner_product(u2_, v1_, Tnum))
 ax[2, 1].set_title('<u2,v1>')
 ax[2, 1].grid()
-# 右上 <u2,v2>
+# <u2,v2>
 ax[2, 2].plot(Time_ax, my.inner_product(u2_, v2_, Tnum))
 ax[2, 2].set_title('<u2,v2>')
 ax[2, 2].grid()
